@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+  .cabecalho {
+    padding-top: .3em;
+    font-size: 5em; 
+  }
+
+  .container{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteudo {
+    height: auto; 
+    width: 90%;
+    align-self: center;
+    margin-top: 5rem;
+  }
+
+  #characterId, #btn-go {
+    width: 80%; /* Largura maior para facilitar a interação */
+    padding: 15px 0; /* Padding maior para aumentar a área de toque */
+  }
+
+  #modal {
+    width: 80%; 
+    height: auto; 
+  }
+
+  .img_holder {
+    width: 100%; /* Largura total para a imagem dentro do modal */
+  }
+
+  .modal_body{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .mb_text{
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .mb_text p{
+    padding: .5rem 0;
+  }
+
+  .background{
+  background-image: url("../img/Cartaz.jpeg");
+  background-position: top;
+
+  }
+
+  .background::before {
+  backdrop-filter: blur(3px);
+}
+}

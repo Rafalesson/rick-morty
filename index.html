@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="./assets/js/script.js" defer></script>
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css" />
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
+
+    <title>Rick & Morty</title>
+  </head>
+  <body class="corpo">
+    <header class="cabecalho">
+      <nav>Rick and Morty</nav>
+    </header>
+
+    <main class="container">
+      <div class="background"></div>
+
+      <section class="conteudo">
+        <p class="legenda">BUSCAR PERSONAGEM</p>
+        <form action="" method="get" id="form">
+          <input type="number" name="" id="characterId" placeholder="Id"/>
+          <button type="button" id="btn-go">BUSCAR</button>
+        </form>
+      </section>
+
+      <section id="fade_modal" class="hide">
+        <div id="modal" class="hide">
+          <div class="modal_header">
+            <span class="title">Rick and Morty</span>
+            <button type="button" id="close_modal">X</button>
+          </div>
+
+          <div class="modal_body">
+            <div class="mb_text">
+              <p id="name">Nome:</p>
+              <p id="status">Status:</p>
+              <p id="specie">Espécie:</p>
+              <p id="gender">Gênero:</p>
+              <p id="origin">Planeta:</p>
+            </div>
+            
+            <figure class="img_holder">
+              <img src="" alt="" id="photo" />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
