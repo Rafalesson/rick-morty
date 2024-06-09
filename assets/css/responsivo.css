@@ -4,6 +4,7 @@
     font-size: 5em; 
   }
 
+
   .container{
     display: flex;
     height: 80%;
@@ -14,7 +15,6 @@
   .conteudo {
     height: auto; 
     width: 90%;
-    align-self: center;
     margin-top: 5rem;
   }
 
@@ -50,7 +50,6 @@
   .background{
   background-image: url("../img/Cartaz.jpeg");
   background-position: top;
-
   }
 
   .background::before {
