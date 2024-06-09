@@ -26,7 +26,7 @@ Para executar este projeto **[clique aqui](https://rafalesson.github.io/rick-mor
 ## Uso
 Para buscar informações sobre um personagem:
 1. Digite o ID do personagem no campo de entrada.
-2. Clique no botão "PROCURAR" ou pressione Enter.
+2. Clique no botão "BUSCAR" ou pressione Enter.
 3. O modal será exibido com as informações do personagem.
 4. Para fechar o modal, clique fora dele, pressione o botão "X" ou a tecla Esc.
 
