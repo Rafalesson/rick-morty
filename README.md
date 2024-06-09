@@ -19,7 +19,7 @@ Este projeto é uma aplicação web interativa que permite aos usuários buscar 
   - Async/Await para operações assíncronas
   - Event Listeners para interações do usuário
 
-## Instalação
+## Execução
 Para executar este projeto **[clique aqui]()**
 
 
