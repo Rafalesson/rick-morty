@@ -20,7 +20,7 @@ Este projeto é uma aplicação web interativa que permite aos usuários buscar 
   - Event Listeners para interações do usuário
 
 ## Execução
-Para executar este projeto **[clique aqui]()**
+Para executar este projeto **[clique aqui](https://rafalesson.github.io/rick-morty/)**
 
 
 ## Uso
