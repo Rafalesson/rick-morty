@@ -24,8 +24,12 @@
   }
 
   #modal {
-    width: 80%; 
+    width: 70%; 
     height: auto; 
+  }
+
+  .modal_header{
+    padding: 1rem;
   }
 
   .img_holder {
@@ -35,12 +39,15 @@
   .modal_body{
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-content: baseline;
+    width: fit-content;
+    padding: 0;
   }
 
   .mb_text{
-    width: 100%;
-    padding: 1rem 0;
+    width: 90%;
+    align-content: flex-start;
+    padding: .8rem 0;
   }
 
   .mb_text p{
@@ -54,5 +61,15 @@
 
   .background::before {
   backdrop-filter: blur(3px);
+}
+
+.img_holder{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#photo{
+  /* height: 50vh; */
 }
 }
